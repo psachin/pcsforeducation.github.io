@@ -5,6 +5,7 @@ date: 2010-11-16 19:54
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: EC2, Ubuntu

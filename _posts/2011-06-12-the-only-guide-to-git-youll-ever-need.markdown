@@ -6,6 +6,7 @@ date: 2011-06-12 23:48
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: Git

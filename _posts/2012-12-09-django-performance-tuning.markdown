@@ -1,6 +1,7 @@
 ---
 title: Django Performance Tuning
 
+layout: default
 category: Articles
 
 tags: Django Python

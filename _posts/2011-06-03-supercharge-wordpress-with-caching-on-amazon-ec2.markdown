@@ -6,6 +6,7 @@ date: 2011-06-03 15:26
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: EC2, Ubuntu, Webserver, Wordpress

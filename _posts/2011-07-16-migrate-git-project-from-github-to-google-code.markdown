@@ -6,6 +6,7 @@ date: 2011-07-16 12:46
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: Git, GitHub, Google, Google Code

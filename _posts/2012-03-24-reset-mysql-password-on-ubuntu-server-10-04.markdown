@@ -6,6 +6,7 @@ date: 2012-03-24 23:23
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: MySQL, Ubuntu

@@ -5,6 +5,7 @@ date: 2010-11-17 16:19
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: Django, Python

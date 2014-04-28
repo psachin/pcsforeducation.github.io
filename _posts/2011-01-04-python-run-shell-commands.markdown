@@ -6,6 +6,7 @@ date: 2011-01-04 15:00
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: Python

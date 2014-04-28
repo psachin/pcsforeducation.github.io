@@ -6,6 +6,7 @@ date: 2012-09-04 13:02
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: Git, server

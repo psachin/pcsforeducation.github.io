@@ -5,6 +5,7 @@ date: 2010-11-23 11:21
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: Eucalyptus, Ubuntu

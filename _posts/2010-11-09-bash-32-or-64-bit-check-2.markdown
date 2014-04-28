@@ -5,6 +5,7 @@ date: 2010-11-09 17:12
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: Bash

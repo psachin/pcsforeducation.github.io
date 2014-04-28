@@ -6,6 +6,7 @@ date: 2012-03-24 18:36
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: PXE, Tools

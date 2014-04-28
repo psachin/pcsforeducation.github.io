@@ -6,6 +6,7 @@ date: 2010-11-30 11:55
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: Django

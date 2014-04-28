@@ -6,6 +6,7 @@ date: 2010-11-18 12:34
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: PXE, Ubuntu

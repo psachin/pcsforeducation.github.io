@@ -1,5 +1,7 @@
 ---
 title: Fabric XMPP Chat
+date: 2013-08-09 16:02
+layout: default
 category: Articles
 tags: Python Fabric
 permalink: frabric-xmpp-chat

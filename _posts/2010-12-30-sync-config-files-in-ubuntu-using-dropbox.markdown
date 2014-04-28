@@ -6,6 +6,7 @@ date: 2010-12-30 00:37
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: Ubuntu

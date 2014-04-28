@@ -5,6 +5,7 @@ date: 2011-06-07 20:14
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: BASH

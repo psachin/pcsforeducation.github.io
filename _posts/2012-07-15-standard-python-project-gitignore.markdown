@@ -6,6 +6,7 @@ date: 2012-07-15 00:07
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: Git, Python

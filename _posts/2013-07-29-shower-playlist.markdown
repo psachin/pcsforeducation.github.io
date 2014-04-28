@@ -6,6 +6,7 @@ date: 2013-07-29 00:31
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: Android, Automation, Tasker

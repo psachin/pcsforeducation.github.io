@@ -1,6 +1,7 @@
 ---
 title: Add Aliases in Ubuntu Shortcut
 
+layout: default
 category: Articles
 
 tags: Scripts, Time Savers, Ubuntu

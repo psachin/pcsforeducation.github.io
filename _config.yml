@@ -3,3 +3,10 @@ markdown: redcarpet
 pygments: true
 highlighter: pygments
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      layout: "default"

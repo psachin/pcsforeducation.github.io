@@ -5,6 +5,7 @@ date: 2012-04-29 01:49
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: BASH, CentOS, EC2, RightScale

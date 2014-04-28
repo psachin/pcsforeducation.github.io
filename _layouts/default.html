@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    <meta name="author" content="Josh Gachnang">
+    <link rel="author" href="https://plus.google.com/u/0/115833423324756942653/posts">
+    <link href="{{ site.url }}{{ page.url | remove: "index.html" }}" rel="canonical">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link href="/css/main.css" rel="stylesheet" type="text/css">
+    <link href="/css/syntax.css" rel="stylesheet" type="text/css">
+  </head>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
-    </head>
-    <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
+  <body>
+  <header class="site-header" role="banner">
+      <div class="container">
+          <h1 class="title"><a href="/">Josh Gachnang</a></h1>
+      <nav role="navigiation">
+      <div class="logo">
+          <ul>
+            <li>
+              <a class="core-nav icon-home" href="/" title="Home"></a>
+            </li>
+            <li>
+              <a class="core-nav icon-quill" href="/blog" title="Blog"></a>
+            </li>
+            <li>
+              <a class="core-nav icon-profile" href="/resume/" title="Resume"></a>
+            </li>
+            <li>
+              <a class="core-nav icon-info" href="/about/" title="About"></a>
+            </li>
+            <li>
+              <a class="core-nav icon-twitter" href="http://twitter.com/servercobra" title="servercobra on Twitter"></a>
+            </li>
+            <li>
+              <a class="core-nav icon-github" href="http://github.com/pcsforeducation" title="pcsforeducation on GitHub"></a>
+            </li>
+            <li>
+              <a class="core-nav icon-linkedin" href="http://www.linkedin.com/in/joshgachnang/" title="LinkedIn"></a>
+            </li>
+            <li>
+              <a class="core-nav icon-mail" href="mailto:josh@servercobra.com" title="Email Me"></a>
+            </li>
+          </ul>
         </div>
+        </nav>
+      </div>
+    </header>
 
-    </body>
+    <div class="site-content">
+      {% if page.category %}
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="post-meta">{{ page.date }}</p>
+      {% endif %}
+      <div class="container">
+        {{ content }}
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        {% if page.category %}<p><a href='https://github.com/pcsforeducation/pcsforeducation.github.io/blob/master/_posts/{{ page.date | date: "%Y-%m-%d"}}-{{ page.permalink }}.markdown'>Edit This Page on GitHub</a></p>{% endif %}
+        &copy; Josh Gachnang 2014.
+      </div>
+    </footer>
+
+  </body>
 </html>

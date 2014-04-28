@@ -6,6 +6,7 @@ date: 2012-06-28 18:00
 
 author: Josh
 
+layout: default
 category: Articles
 
 tags: LXC, Ubuntu, UFW
